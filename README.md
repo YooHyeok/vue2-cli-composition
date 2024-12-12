@@ -18,3 +18,24 @@
     Manually select features
   ```
 </details>
+
+<details>
+<summary style="font-size:30px; font-weight:bold; font-style:italic;">Composition API install</summary>
+
+- ### composition API - node module 추가
+
+  ```bash
+  npm install @vue/composition-api
+  ```
+
+- ### 루트 모듈 composition API 플러그인 추가
+
+  ```js
+  /* 생략 */
+  import VueCompositionAPI from '@vue/composition-api';
+
+  Vue.use(VueCompositionAPI); // npm install 후 전역 등록
+  /* 생략 */
+  ```
+
+</details>
